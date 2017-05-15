@@ -1,7 +1,6 @@
 ---
 layout: post
-
 ---
 # File with header
 
-Have been a week and my Pharyngitis condition still there.
+It have been a week and my pharyngitis condition still there.
