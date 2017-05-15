@@ -1,5 +1,4 @@
 # Dependencies
-markdown:         redcarpet
 gems:
    - jekyll-titles-from-headings   
 # Permalinks
