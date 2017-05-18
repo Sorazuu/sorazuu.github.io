@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
   background: url(http://i.imgur.com/3ri38Ot.jpg) no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 .masthead-title {
   margin-top: 0;
