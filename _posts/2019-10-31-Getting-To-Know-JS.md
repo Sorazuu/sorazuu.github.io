@@ -1,12 +1,12 @@
 ---
 layout: post
 ---
-# Files As Programs
+## Files As Programs
 
 - Mỗi file .js là một file chương trình riêng. Lý do là để khi chạy nhiều file, nếu 1 file bị lỗi thì ko ảnh hưởng tới sự thực thi của file khác.
 - Các file khi thực thi sẽ gộp chung thành 1 chương trình lớn (big program) bằng cách chia sẽ các state của nó thông qua "global scope"
 
-# Values
+## Values
 
 - Giá trị là data, là cách mà chương trình duy trì các state của nó.
 - Value có 2 dạng: **primitive** và **object**. Primitive bao gồm: strings, numbers, booleans, null, undefined cuối cùng là symbol.
@@ -14,7 +14,7 @@ layout: post
 - Có thể dùng `Math.PI` để biểu diễn số PI
 - Giống như các ngôn ngữ khác, array index bắt đầu từ 0
 
-# Variables
+## Variables
 
 - Trong JS, value có thể xuất hiện một các nguyên thủy như `console.log("abc")` hoặc được giữ trong 1 biến (variable) `a = "abc"`.
 - keyword để khai báo biến trong JS: var, let, const. `let` bị giớn hạn nhiều hơn `var`, dùng trong block như `if{}` (block scoping). `const` thì giống như `let` nhưng phải được gán giá trị lúc khai báo và không thể được gán lại, `const` nếu khai báo cho object thì vẫn có thể thay đổi giá trị vd:
@@ -45,7 +45,7 @@ catch (err) {
 }
 ```
 
-# Functions
+## Functions
 
 - Có nhiều cách để khai báo một function (function declaration) như generator, async, export... và các function expression như IIFE, arrow function expressions. Vd:
 
@@ -104,7 +104,7 @@ var EntirelyDifferent = {
     oldSchool: function() { .. }
 };
 ```
-# Comparisons
+## Comparisons
 
 - Biểu thức so sánh `===` thường được hiểu là "kiểm tra đồng thời giá trị và kiểu dữ liệu". Nó không cho phép ép kiểu trong lúc so sánh.
 - Khi so sánh với NaN (not a number) thì nên sử dụng `Number.isNaN(..)` hoặc `Object.is(..)`
