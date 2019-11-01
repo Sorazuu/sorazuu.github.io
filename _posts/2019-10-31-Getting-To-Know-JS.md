@@ -147,6 +147,7 @@ while (x) {
     x = false;
 }
 ```
+
 ```js
 var x = "hello";
 
@@ -160,5 +161,11 @@ if (Boolean(x) === true) {
     // will run
 }
 ```
+### Code Organization
+
+- Có 2 kiểu tổ chức code: class và module
+- Class giống như các ngôn ngữ OOP khác
+- Có 2 loại module: classic (function) và ES6 (file-base)
+- ES6 module là singletons, ES6 module có thể kết hợp với classic module để sử dụng multiple-instantation
 
 
